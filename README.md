@@ -1,6 +1,8 @@
 # eBike-Route-Info-Calculator
 This repository contains a program that, when given a gpx file and a dataset of the consumption rate and most efficient speed of an e-bike corresponding to specific gradients, can calculate the total energy consumed from the battery of an e-bike across a route and the total time it would take to traverse the route, assuming the battery doesn't discharge.
+
 The purpose of this program is to give insight as to how far of a distance an e-bike could travel on a full charge. 
+
 One single number for the range of an e-bike would not be accurate when traversing hilly terrain, so this program also considers the elevation change along a route.
 
 The program is currently configured to extract route data from a file called route.gpx and simulation data from a file called wattage.txt.
